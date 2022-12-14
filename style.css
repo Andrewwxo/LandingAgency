@@ -5,7 +5,7 @@
 /*    outline: 1px solid red*/
 /*}*/
 html {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     -webkit-text-size-adjust: none;
 }
 
@@ -51,6 +51,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: baseline;
+    flex-wrap: wrap;
 }
 
 .header_list li {
@@ -235,7 +236,7 @@ iframe {
 }
 
 .borderBottom {
-    margin-left: 500px;
+    margin-left: 535px;
     border-bottom: 3px solid #ff2d2d;
     width: 132px;
 }
@@ -282,4 +283,14 @@ iframe {
 .section3 {
     text-align: center;
     position: relative;
+}
+.section3img-folder {
+    margin-bottom: 130px;
+}
+
+.section3imgLeft, .section3imgRight {
+    display: flex;
+    gap: 9px;
+    margin-bottom: 9px;
+    /*flex-wrap: wrap;*/
 }
