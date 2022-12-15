@@ -165,6 +165,8 @@ iframe {
 .secondTitle {
     opacity: 0.8;
     font-size: 42px;
+    line-height: 1.2;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.01em;
     color: #000000;
@@ -256,7 +258,6 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: baseline;
-
 }
 
 .section3-items li {
@@ -284,6 +285,7 @@ iframe {
     text-align: center;
     position: relative;
 }
+
 .section3img-folder {
     margin-bottom: 130px;
 }
@@ -293,4 +295,189 @@ iframe {
     gap: 9px;
     margin-bottom: 9px;
     /*flex-wrap: wrap;*/
+}
+
+.sect4part2tittle {
+    opacity: 0.8;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+.sect4part2description {
+    padding-top: 35px;
+    margin-bottom: 45px;
+    opacity: 0.7;
+    font-size: 16px;
+}
+
+.section4 {
+    display: block;
+}
+
+.sect4mainImg {
+    margin-right: 70px;
+}
+
+.borderBottomSec4 {
+    margin-left: 10px;
+    border-bottom: 3px solid #ff2d2d;
+    width: 132px;
+    margin-bottom: 70px;
+}
+
+.descriptionTitleSec4 {
+    padding-top: 50px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+    font-size: 16px;
+    width: 445px;
+}
+
+.sect4rightPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.section4part2 {
+    display: flex;
+    margin-bottom: 110px;
+}
+
+.sect4part2photoMembers {
+    display: flex;
+    gap: 20px;
+}
+
+.sect4part2socialList {
+    display: flex;
+    justify-content: left;
+}
+
+.sect4socialItem {
+    margin-right: 28px;
+    margin-bottom: 40px;
+    list-style: none;
+}
+
+.sect4socialItem a {
+    text-decoration: none;
+    opacity: 0.8;
+    font-size: 18px;
+    color: #000000;
+}
+
+.sect4part2photoMember1st {
+    position: relative;
+}
+
+.sect4textOnImg2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.5;
+    background-color: #000000;
+    width: 197px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.sect4bg {
+    background: url("assets/images/section5BG4.jpg") no-repeat center top / cover;
+    width: 100%;
+    height: 515px;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    position: relative;
+}
+
+.sect4bottom-folder {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.sect4bottom-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px
+
+}
+
+.sect4bottomTitle {
+    opacity: 0.8;
+    font-size: 42px;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+.sect4bottomDescription {
+    opacity: 0.8;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.sect4Buttons {
+    display: flex;
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+.sect4inputArea {
+    width: 521px;
+    height: 79px;
+    background-color: #ffffff;
+    border: 1px solid #e7e7e7;
+
+}
+
+.sect4Input {
+    opacity: 0.7;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    color: #2c2c2c;
+    border: none;
+    padding: 8px;
+    width: 230px;
+    height: 40px;
+}
+
+.sect4Input:hover {
+    color: #95e1d3;
+}
+
+.sect4buttonSubscribe {
+    width: 214px;
+    height: 79px;
+    background-color: #ff2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect4btnSubscribe {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    margin: 0;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+.sect4btnSubscribe:hover {
+    font-size: 18px;
 }
