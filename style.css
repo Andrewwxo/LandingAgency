@@ -39,7 +39,7 @@ header, footer {
 }
 
 header {
-    height: 89px;
+    height: 100%;
 }
 
 .header_body {
@@ -393,6 +393,7 @@ iframe {
 }
 
 .sect4bg {
+    margin-bottom: 105px;
     background: url("assets/images/section5BG4.jpg") no-repeat center top / cover;
     width: 100%;
     height: 515px;
@@ -403,7 +404,7 @@ iframe {
 
 .sect4bottom-folder {
     position: absolute;
-    top: -100px;
+    top: -80px;
     left: 50%;
     transform: translate(-50%, 50%);
 }
@@ -418,6 +419,8 @@ iframe {
 }
 
 .sect4bottomTitle {
+    width: 1200px;
+    text-align: center;
     opacity: 0.8;
     font-size: 42px;
     letter-spacing: 0.025em;
@@ -434,6 +437,7 @@ iframe {
     display: flex;
     padding-bottom: 140px;
     text-align: center;
+    gap: 20px;
 }
 
 .sect4inputArea {
@@ -441,7 +445,10 @@ iframe {
     height: 79px;
     background-color: #ffffff;
     border: 1px solid #e7e7e7;
-
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
 }
 
 .sect4Input {
@@ -456,7 +463,7 @@ iframe {
 }
 
 .sect4Input:hover {
-    color: #95e1d3;
+    color: #f67373;
 }
 
 .sect4buttonSubscribe {
@@ -466,6 +473,7 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
 }
 
 .sect4btnSubscribe {
@@ -480,4 +488,112 @@ iframe {
 
 .sect4btnSubscribe:hover {
     font-size: 18px;
+}
+
+.section5 {
+    margin-bottom: 110px;
+}
+
+.sect5nameEmailButton {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.btnName, .btnEmail {
+    width: 339px;
+    height: 69px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    margin-right: 52px;
+}
+
+.textOnBtn {
+    padding-top: 25px;
+    padding-left: 30px;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.sect5textArea {
+    margin-bottom: 45px;
+    width: 731px;
+    height: 249px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+.btnSendMessage {
+    width: 728px;
+    height: 72px;
+    background-color: #ff3b3b;
+    border-radius: 5px;
+}
+
+.textOnBtnSend {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sect5bottom {
+    display: flex;
+}
+
+.sect5bottomRight {
+    width: 100%;
+    height: 481px;
+    background-color: #2d2d2d;
+    margin-left: 65px;
+    padding-top: 95px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.contactInfo {
+    opacity: 0.8;
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    padding-bottom: 35px;
+}
+
+.info {
+    opacity: 0.8;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+footer {
+    height: 100px;
+}
+.footer-wrapper {
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftFooter {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #b8b8b8;
+}
+.socialLogo {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #000;
+    background: #fff;
 }
