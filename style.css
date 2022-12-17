@@ -5,7 +5,7 @@
 /*    outline: 1px solid red*/
 /*}*/
 html {
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     -webkit-text-size-adjust: none;
 }
 
@@ -618,6 +618,35 @@ footer {
     background: #fff;
 }
 
+.burger {
+    color: white;
+    display: none;
+    font-size: 180%;
+    text-align: start;
+}
+
+.burger-slide {
+    color: white;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.disp {
+    display: none;
+}
+
 @media (max-width: 1270px) {
     .container {
         max-width: 970px;
@@ -646,8 +675,8 @@ footer {
     }
 
     .sect5bottomRight {
-        width: 731px;
-        margin-left: -50px;
+        width: 100%;
+        margin-left: -320px;
     }
 }
 
@@ -690,6 +719,10 @@ footer {
     .borderBottom {
         margin-left: 300px;
     }
+
+    .sect5bottomRight {
+        margin-left: -345px;
+    }
 }
 
 
@@ -697,12 +730,13 @@ footer {
     .container {
         max-width: none;
     }
+
     body {
         padding: 0 7px;
     }
 
     .borderBottom {
-        margin-left: 250px;
+        margin-left: 288px;
     }
 
     .sect4part2photoItem {
@@ -734,13 +768,129 @@ footer {
     .sect5textArea {
         width: 400px;
     }
+
     .btnSendMessage {
         width: 400px;
     }
 
+    .sect5bottomRight {
+        margin-left: -300px;
+    }
+
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 590px) {
+    .container {
+        margin: auto 7px;
+    }
+
+    .burger-menu, .burger {
+        display: block;
+    }
+
+    .header_list {
+        display: none;
+    }
+
+    h1 {
+        font-size: 42px;
+        letter-spacing: 0;
+        line-height: 40px;
+    }
+
+    .section1 {
+        padding: 0;
+    }
+
+    .section1textUnderH1 {
+        padding-top: 20px;
+        margin-bottom: 40px;
+        opacity: 0.7;
+        font-size: 14px;
+    }
+
+    .section1Button {
+        width: 130px;
+        height: 40px;
+        padding-top: 4px;
+    }
+
+    .section1Button a {
+        font-size: 14px;
+    }
+
+    .section1RightPart {
+        margin-left: 0;
+        position: relative;
+        width: 100%;
+        box-shadow: -5px -10px 10px #aaa;
+    }
+
+    .secondTitle {
+        font-size: 25px;
+        line-height: 1;
+        letter-spacing: 0;
+    }
+
+    .descriptionTitle {
+        padding-top: 25px;
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .buttonUnderTitle {
+        width: 110px;
+        height: 35px;
+        margin-bottom: 30px;
+    }
+
+    .buttonUnderTitle a {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+    .section2 {
+        padding-top: 80px;
+        margin-bottom: 40px;
+    }
+    .section2-folder {
+        flex-wrap: wrap;}
+
+    .borderBottom {
+        margin-left: 205px;
+        width: 70px;
+    }
+    .section3item {
+        font-size: 13px;
+        letter-spacing: 0;}
+
+    .section3-items li {
+        list-style: none;
+        margin-right: 18px;
+        padding-top: 35px;}
+
+    .section3img {
+        width: 218px;
+        height: 228px;
+    }
+    .section3imgLeft, .section3imgRight {
+        grid-gap: 10px;}
+
+    .section3img-folder {
+        margin-bottom: 80px;
+    }
+
+    .descriptionTitleSec4 {
+        padding-top: 25px;
+        padding-left: 10px;
+        margin-bottom: 25px;
+        font-size: 14px;}
+
+    .borderBottomSec4 {
+        width: 80px;
+        margin-bottom: 45px;}
+
+
 
 }
 
