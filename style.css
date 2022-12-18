@@ -473,26 +473,16 @@ iframe {
     width: 521px;
     height: 79px;
     background-color: #ffffff;
-    border: 1px solid #e7e7e7;
     border-radius: 4px;
     display: flex;
     align-items: center;
     margin-left: 15px;
-}
-
-.sect4Input {
     opacity: 0.7;
     font-size: 16px;
     letter-spacing: 0.025em;
     color: #2c2c2c;
     border: none;
-    padding: 8px;
-    width: 230px;
-    height: 40px;
-}
-
-.sect4Input:hover {
-    color: #f67373;
+    padding-left: 40px;
 }
 
 .sect4buttonSubscribe {
@@ -963,6 +953,8 @@ button {
     .sect4inputArea {
         width: 440px;
         height: 54px;
+        font-size: 12px;
+        padding: 12px;
     }
 
     .sect4buttonSubscribe {
@@ -1146,11 +1138,6 @@ button {
         font-size: 12px;
     }
 
-    .sect4Input {
-        font-size: 12px;
-        padding: 12px;
-    }
-
     .sect4bg {
         height: 385px;
         filter: blur(4px);
@@ -1158,14 +1145,11 @@ button {
         margin: 0 auto;
     }
 
-    .textOnBtn {
-        font-size: 11px;
-        padding-top: 8px;
-    }
-
     .btnName, .btnEmail {
         width: 280px;
         height: 45px;
+        font-size: 11px;
+        padding-top: 8px;
     }
 
     .sect5nameEmailButton {
@@ -1176,6 +1160,8 @@ button {
         margin-bottom: 45px;
         width: 280px;
         height: 100px;
+        font-size: 11px;
+        padding-top: 8px;
     }
 
     .textOnBtnSend {
@@ -1208,6 +1194,17 @@ button {
 
     .socialLogo {
         font-size: 86%;
+    }
+
+    .info {
+        opacity: 0.8;
+        font-size: 12px;
+        line-height: 5px;
+    }
+
+    .contactInfo {
+        font-size: 16px;
+        line-height: 20px;
     }
 }
 
