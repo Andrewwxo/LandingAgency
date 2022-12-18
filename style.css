@@ -194,6 +194,12 @@ iframe {
     text-decoration: none;
     text-transform: capitalize;
 }
+.buttonUnderTitle a:hover {
+    font-size: 20px;
+    /*text-decoration: underline;*/
+    color: #f67a7a;
+}
+
 
 .section2 {
     padding-top: 115px;
@@ -226,6 +232,7 @@ iframe {
     font-size: 24px;
     letter-spacing: 0.01em;
     color: #000000;
+    cursor: pointer;
 }
 
 .section2itemTitle1Description {
@@ -278,6 +285,12 @@ iframe {
 .section3-items a:focus {
     color: #ff2d2d;
 }
+.section3-items a:hover {
+    font-size: 23px;
+    transition: 0.5s;
+    color: #080909;
+    opacity: 0.9;
+}
 
 .section3 {
     text-align: center;
@@ -302,6 +315,7 @@ iframe {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.01em;
+    cursor: pointer;
 }
 
 .sect4part2description {
@@ -317,6 +331,7 @@ iframe {
 
 .sect4mainImg {
     margin-right: 70px;
+    cursor: pointer;
 }
 
 .borderBottomSec4 {
@@ -368,9 +383,17 @@ iframe {
     font-size: 18px;
     color: #000000;
 }
+.sect4socialItem a:hover{
+    font-size: 19px;
+    opacity: 0.9;
+}
 
 .sect4part2photoMember1st {
     position: relative;
+    cursor: pointer;
+}
+.sect4part2photoItem {
+    cursor: pointer;
 }
 
 .sect4textOnImg2 {
@@ -591,6 +614,7 @@ iframe {
     font-weight: 400;
     color: #ffffff;
     padding-bottom: 30px;
+    cursor: pointer;
 }
 
 footer {
