@@ -280,6 +280,7 @@ iframe {
     letter-spacing: 0.01em;
     color: #000000;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .section3-items a:focus {
