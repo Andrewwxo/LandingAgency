@@ -194,6 +194,7 @@ iframe {
     text-decoration: none;
     text-transform: capitalize;
 }
+
 .buttonUnderTitle a:hover {
     font-size: 20px;
     /*text-decoration: underline;*/
@@ -280,12 +281,16 @@ iframe {
     letter-spacing: 0.01em;
     color: #000000;
     text-decoration: none;
+}
+
+.section3img {
     cursor: pointer;
 }
 
 .section3-items a:focus {
     color: #ff2d2d;
 }
+
 .section3-items a:hover {
     font-size: 23px;
     transition: 0.5s;
@@ -384,7 +389,8 @@ iframe {
     font-size: 18px;
     color: #000000;
 }
-.sect4socialItem a:hover{
+
+.sect4socialItem a:hover {
     font-size: 19px;
     opacity: 0.9;
 }
@@ -393,6 +399,7 @@ iframe {
     position: relative;
     cursor: pointer;
 }
+
 .sect4part2photoItem {
     cursor: pointer;
 }
@@ -527,24 +534,30 @@ iframe {
     background-color: #e6e6e6;
     border-radius: 5px;
     margin-right: 52px;
-}
-
-.textOnBtn {
-    padding-top: 25px;
     padding-left: 30px;
     opacity: 0.7;
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
     color: #000000;
+    border: none;
 }
 
 .sect5textArea {
+    padding-left: 30px;
+    padding-top: 25px;
     margin-bottom: 45px;
     width: 731px;
-    height: 249px;
+    /*height: 190px;*/
     background-color: #e6e6e6;
     border-radius: 5px;
+    resize: none;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000000;
+    border: none;
 }
 
 .btnSendMessage {
@@ -1192,6 +1205,7 @@ button {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
     .socialLogo {
         font-size: 86%;
     }
@@ -1201,12 +1215,17 @@ button {
     .borderBottom {
         margin-left: 135px;
     }
+
     .section3-items li {
-        margin-right: 10px;}
+        margin-right: 10px;
+    }
 
     .section3item {
-        font-size: 9px;}
+        font-size: 9px;
+    }
+
     .leftFooter {
-        font-size: 12px;}
+        font-size: 12px;
+    }
 
 }
